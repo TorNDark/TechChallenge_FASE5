@@ -1,5 +1,10 @@
 # TechChallenge_FASE5
-TechChallenge_FASE5
+TechChallenge_FASE5 - DataThon
+
+Kleverson Valizerde Siqueira - 357339
+Ramon Eduardo Peters - 357522
+Rogério Viana - 357497
+Vinicius Almeida Barros - 357347
 
 Storytelling
 O arquivo principal com a apresentação da análise e dos insights obtidos está disponível em formato PDF no repositório, com o nome:
