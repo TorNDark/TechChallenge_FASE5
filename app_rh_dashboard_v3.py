@@ -409,7 +409,7 @@ if aba == "📊 Dashboards":
     df_modelo = df_filtrado[colunas_desejadas]
 
 
-    st.write("Colunas disponíveis:", df_modelo.columns.tolist())
+    #st.write("Colunas disponíveis:", df_modelo.columns.tolist())
 
     # Simulando os dados finais com base no seu esquema
     #data = [
@@ -468,7 +468,7 @@ if aba == "📊 Dashboards":
     if st.button("🔍 Prever Aderência"):
         input_df = pd.DataFrame([input_data])
         proba = model.predict_proba(input_df)[0][1]
-        st.metric("Probabilidade de Aderência", f"{proba*100:.1f}%")
+        #st.metric("Probabilidade de Aderência", f"{proba*100:.1f}%")
 
     # Ordena os top 5 mais prováveis (simulando com df inteiro)
         full_proba = model.predict_proba(df_modelo[features])[:, 1]
